@@ -1,0 +1,9 @@
+#SERVER
+server:
+  port: 9101
+
+security:
+    oauth2:
+        client-id: clientId
+        client-secret: secret
+        check-token-uri: http://localhost:9100/oauth/check_token
